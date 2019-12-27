@@ -1,11 +1,11 @@
 apiVersion: operators.coreos.com/v1
 kind: OperatorSource
 metadata:
-  name: upstream-community-operators
+  name: postgresql-operators
   namespace: marketplace
 spec:
   type: appregistry
   endpoint: https://quay.io/cnr
-  registryNamespace: upstream-community-operators
-  displayName: "Upstream Community Operators"
+  registryNamespace: openlabs_operator
+  displayName: "Upstream postgresql Community Operators"
   publisher: "Red Hat"
